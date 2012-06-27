@@ -55,7 +55,7 @@ $orangeTint 				: tint($orange, $tintPercent) ;
 $goldTint					: tint($gold, $tintPercent) ;
 $yellowTint					: tint($yellow, $tintPercent) ;
 $limeGreenTint				: tint($limeGreen, $tintPercent) ;
-$GreenTint 					: tint($Green, $tintPercent) ;
+$greenTint 					: tint($Green, $tintPercent) ;
 $blueLightTint 				: tint($blueLight, $tintPercent) ;
 $blueTint 					: tint($blue, $tintPercent) ;
 $blueDarkTint 				: tint($blueDark, $tintPercent) ;
@@ -95,9 +95,8 @@ $primaryBtnBckgrndShade 	: shade($primaryBtnBckgrnd, $shadePercent);
 // ALERTS AND MESSAGES
 $infoColor 					: rgb(217,237,247);
 $errorColor 				: $redTint;
-$inversColor 				: rgb(65,65,65);
-$successColor 				: rgb(91,183,91);
-$warningColor 				: rgb(250,167,50);
+$successColor 				: $greenTint;
+$warningColor 				: $goldTint;
 
 // MAIN
 $bodyBackground				: $white;
@@ -173,11 +172,23 @@ $codeFont 					: Monaco, Courier New, monospace;
 $base-font-size				: $baseFontSize;
 $base-line-height			: $baseLineHeight;
 @include establish-baseline;
-// $default-rhythm-border-style: solid;
-// $relative-font-sizing 		: true;
-// $round-to-nearest-half-line : false;
-// $min-line-padding 			: 2px;
-// $font-unit 					: if($relative-font-sizing, 1em, $base-font-size);
+$default-rhythm-border-style: solid;
+$relative-font-sizing 		: true;
+$round-to-nearest-half-line : false;
+$min-line-padding 			: 2px;
+$font-unit 					: if($relative-font-sizing, 1em, $base-font-size);
+
+// ---------------------------------------------------------------------------
+// TABLES
+$tableFontSize				: $baseFontSize;
+$tableBackground			: $white;
+$tableBorderWidth 			: 1px;
+$tableBorderColor			: $grayLight;
+$tableBorderStyle 			: solid;
+$tableHover					: $linkColor;
+$tableStripe				: $grayLighter;
+
+
 
 // ---------------------------------------------------------------------------
 // SPACES

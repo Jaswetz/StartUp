@@ -10,7 +10,7 @@
 @import "compass/typography/vertical_rhythm";
 
 // CSS reset
-@import "compass/reset";
+@import "normalize";
 // @import "modernizr";
 
 // Variables and mixins
@@ -54,7 +54,7 @@
 //@import "buttons";
 
 // Tables
-//@import "tables";
+@import "tables";
 
 // ---------------------------------------------------------------------------
 // LAYOUT
