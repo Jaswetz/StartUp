@@ -1,0 +1,113 @@
+//----------------------------------------------------------------------------
+// typography.scss
+// Headings, body text, lists, code, and more 
+//----------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------
+// @BODY
+
+p 
+{
+  @include rhythm(1, 0, 0, 1, 16px);
+  font-family: $baseFontFamily;
+
+	  
+	  small 
+	  {
+	    color: $grayLight;
+	  }
+}
+
+.lead 
+{
+  margin-bottom: $baseLineHeight;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+
+// ---------------------------------------------------------------------------
+// @LINKS
+
+a 
+{
+  color: $linkColor;
+  text-decoration: none;
+}
+a:hover 
+{
+  color: $linkColorHover;
+  text-decoration: underline;
+}
+
+// ---------------------------------------------------------------------------
+// @HEADINGS
+
+h1, h2, h3, h4, h5, h6 
+{
+  margin: 0;
+  font-family: $headingsFontFamily;
+  font-weight: $headingsFontWeight;
+  color: $headingsColor;
+  text-rendering: optimizelegibility; // Fix the character spacing for headings
+}
+
+h1
+{ 
+  @include leader(2, 32px, padding);
+  @include adjust-font-size-to(32px);  
+}
+
+h2 
+{ 
+    @include leader(1, 24px, margin);
+    @include adjust-font-size-to(24px); 
+}
+
+h3 
+{
+    @include leader(1, 21px, margin);
+    @include adjust-font-size-to(21px); 
+}
+
+h4 
+{
+    @include leader(1, 18px, margin);
+    @include adjust-font-size-to(18px); 
+}
+
+h5 
+{
+    @include leader(1, 16px, margin);
+    @include adjust-font-size-to(16px); 
+}
+
+h6 
+{
+    @include leader(1, 14px, margin);
+    @include adjust-font-size-to(14px); 
+}
+
+// blockquote
+
+blockquote p
+{
+  color: $gray;
+  @include rhythm(1, 0, 0, 1, 18px);
+  @include adjust-font-size-to(18px); 
+  margin-left: $gutter-width;
+  padding-left : $gutter-width;
+  font-family : $altFontFamily;
+  font-style: italic;
+}
+
+blockquote:before
+{
+  font-family: $altFontFamily;
+  font-style:normal;
+  content: "“";
+  @include adjust-font-size-to(48px, 2, 14px);
+  text-indent:0.13em;
+  float:left;
+  opacity:.3;
+}

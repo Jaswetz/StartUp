@@ -1,0 +1,296 @@
+//----------------------------------------------------------------------------
+// demo.scss
+//----------------------------------------------------------------------------
+
+
+// ---------------------------------------------------------------------------
+// SWATCHES
+
+
+.swatch 
+{
+	@include span-columns(6,6);
+	height: 96px;
+
+
+	div
+	{
+		float:left;
+		width: 25%;
+		height:100%;
+
+		span
+		{
+			display: block;
+			width: 100%;
+			height:10px;
+		}
+	}
+}
+
+
+.clearfix
+{
+	@include clearfix;	
+}
+
+// BASE
+
+.swatch-base div:nth-child(1) 
+{
+	background-color: $baseColor; 
+
+	span
+	{
+		background-color: shade($baseColor, 5%);
+	}
+}
+
+.swatch-base div:nth-child(2)
+{
+	background-color: $baseColorTint; 
+
+	span
+	{
+		background-color: shade($baseColorTint, 5%);
+	}
+}
+
+.swatch-base div:nth-child(3) 
+{
+	background-color: $baseColorShade;
+
+	span
+	{
+		background-color: shade($baseColorShade, 5%);	
+	} 
+}
+
+.swatch-base div:nth-child(4) 
+{
+	background-color: equalize($baseColor);
+
+	span
+	{
+		background-color: shade(equalize($baseColor), 5%);
+	}  
+}
+
+
+
+// COMPLIMENTARY COLORS
+
+.comp-base div:nth-child(1)
+{
+	background-color: $primary; 
+
+	span
+	{
+		background-color: shade($primary, 5%);
+	}
+}
+
+.comp-base div:nth-child(2)
+{
+	background-color: $secondary; 
+
+	span
+	{
+		background-color: shade($secondary, 5%);
+	}
+}
+
+.comp-base div:nth-child(3) 
+{
+	background-color: $tertiary; 
+
+	span
+	{
+		background-color: shade($tertiary, 5%);
+	}
+}
+
+.comp-base div:nth-child(4) 
+{
+	background-color: $quadrary;
+	
+	span
+	{
+		background-color: shade($quadrary, 5%);
+	} 
+}
+
+
+// INFO COLORS
+
+.info-base div:nth-child(1)
+{
+	background-color: $infoColor; 
+
+	span
+	{
+		background-color: shade($infoColor, 5%);
+	}
+}
+
+.info-base div:nth-child(2)
+{
+	background-color: adjust-hue($infoColor, 10%); 
+
+	span
+	{
+		background-color: shade(adjust-hue($infoColor, 10%), 5%);
+	}
+}
+
+.info-base div:nth-child(3)
+{
+	background-color: adjust-hue($infoColor, 20%); 
+
+	span
+	{
+		background-color: shade(adjust-hue($infoColor, 20%), 5%);
+	}
+}
+
+.info-base div:nth-child(4)
+{
+	background-color: adjust-hue($infoColor, 40%); 
+
+	span
+	{
+		background-color: shade(adjust-hue($infoColor, 40%), 5%);
+	}
+}
+
+
+
+// ERROR COLORS
+
+.error-base div:nth-child(1)
+{
+	background-color: $errorColor; 
+
+	span
+	{
+		background-color: shade($errorColor, 5%);
+	}
+}
+
+.error-base div:nth-child(2)
+{
+	background-color: desaturate($errorColor, 10%); 
+
+	span
+	{
+		background-color: shade(desaturate($errorColor, 10%), 5%);
+	}
+}
+
+.error-base div:nth-child(3)
+{
+	background-color: desaturate($errorColor, 20%); 
+
+	span
+	{
+		background-color: shade(desaturate($errorColor, 20%), 5%);
+	}
+}
+
+.error-base div:nth-child(4)
+{
+	background-color: desaturate($errorColor, 30%); 
+
+	span
+	{
+		background-color: shade(desaturate($errorColor, 30%), 5%);
+	}
+}
+
+
+// ERROR COLORS
+
+.success-base div:nth-child(1)
+{
+	background-color: $successColor; 
+
+	span
+	{
+		background-color: shade($successColor, 5%);
+	}
+}
+
+.success-base div:nth-child(2)
+{
+	background-color: saturate($successColor, 10%); 
+
+	span
+	{
+		background-color: shade(saturate($successColor, 10%), 5%);
+	}
+}
+
+.success-base div:nth-child(3)
+{
+	background-color: saturate($successColor, 20%); 
+
+	span
+	{
+		background-color: shade(saturate($successColor, 20%), 5%);
+	}
+}
+
+.success-base div:nth-child(4)
+{
+	background-color: saturate($successColor, 30%); 
+
+	span
+	{
+		background-color: shade(saturate($successColor, 30%), 5%);
+	}
+}
+
+
+
+// WARNING COLORS
+
+.warning-base div:nth-child(1)
+{
+	background-color: $warningColor; 
+
+	span
+	{
+		background-color: shade($warningColor, 5%);
+	}
+}
+
+.warning-base div:nth-child(2)
+{
+	background-color: adjust-hue($warningColor, 5%); 
+
+	span
+	{
+		background-color: shade(adjust-hue($warningColor, 5%), 5%);
+	}
+}
+
+.warning-base div:nth-child(3)
+{
+	background-color: adjust-hue($warningColor, 10%); 
+
+	span
+	{
+		background-color: shade(adjust-hue($warningColor, 10%), 5%);
+	}
+}
+
+.warning-base div:nth-child(4)
+{
+	background-color: adjust-hue($warningColor, 15%); 
+
+	span
+	{
+		background-color: shade(adjust-hue($warningColor, 15%), 5%);
+	}
+}
+
