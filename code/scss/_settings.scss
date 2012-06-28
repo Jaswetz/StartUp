@@ -47,7 +47,7 @@ $purple 					: #8800cc ;
 $magenta 					: #d9007e ;
 
 // TINTS
-$tintPercent				: 50%;
+$tintPercent				: 60%;
 
 $redTint 					: tint($red, $tintPercent) ;
 $redOrangeTint 				: tint($redOrange, $tintPercent) ;
@@ -93,10 +93,12 @@ $primaryBtnBckgrndTint 		: tint($primaryBtnBckgrnd, $tintPercent);
 $primaryBtnBckgrndShade 	: shade($primaryBtnBckgrnd, $shadePercent);
 
 // ALERTS AND MESSAGES
-$infoColor 					: rgb(217,237,247);
+$alertColor 				: $yellowTint;
+$infoColor 					: $blueLightTint;
 $errorColor 				: $redTint;
 $successColor 				: $greenTint;
 $warningColor 				: $goldTint;
+$inverseColor 				: $grayDark;
 
 // MAIN
 $bodyBackground				: $white;

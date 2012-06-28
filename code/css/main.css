@@ -795,7 +795,7 @@ dt {
 
 /* line 219, ../scss/_typography.scss */
 abbr[title] {
-  border-bottom: 1px dotted #1a667e;
+  border-bottom: 1px dotted #1f7a98;
   cursor: help;
 }
 
@@ -859,6 +859,152 @@ sup {
 /* line 280, ../scss/_typography.scss */
 sub {
   bottom: -0.25em;
+}
+
+/* line 6, ../scss/_alerts.scss */
+.alert {
+  position: relative;
+  margin: 0 auto 0 auto;
+  margin-bottom: 1.5em;
+  border-style: solid;
+  border-width: 0.063em;
+  padding: 1.438em;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  cursor: default;
+}
+/* line 19, ../scss/_alerts.scss */
+.alert .close {
+  float: right;
+  font-size: 1.25em;
+  line-height: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  right: -21px;
+  top: -14px;
+}
+/* line 31, ../scss/_alerts.scss */
+.alert h4 {
+  margin: 0;
+}
+
+/* line 37, ../scss/_alerts.scss */
+.alert-block {
+  background-color: #ffff99;
+  border-color: #d8d882;
+  color: #66663d;
+}
+/* line 43, ../scss/_alerts.scss */
+.alert-block .close {
+  color: inherit;
+}
+
+/* line 51, ../scss/_alerts.scss */
+.alert-success {
+  background-color: #99ea99;
+  border-color: #82c682;
+  color: #3d5d3d;
+}
+/* line 57, ../scss/_alerts.scss */
+.alert-success .close {
+  color: inherit;
+}
+
+/* line 64, ../scss/_alerts.scss */
+.alert-warning {
+  background-color: #ffea99;
+  border-color: #d8c682;
+  color: #665d3d;
+}
+/* line 70, ../scss/_alerts.scss */
+.alert-warning .close {
+  color: inherit;
+}
+
+/* line 77, ../scss/_alerts.scss */
+.alert-error {
+  background-color: #ff9999;
+  border-color: #d88282;
+  color: #663d3d;
+}
+/* line 83, ../scss/_alerts.scss */
+.alert-error .close {
+  color: inherit;
+}
+
+/* line 89, ../scss/_alerts.scss */
+.alert-info {
+  background-color: #99d6ea;
+  border-color: #82b5c6;
+  color: #3d555d;
+}
+/* line 95, ../scss/_alerts.scss */
+.alert-info .close {
+  color: inherit;
+}
+
+/* line 102, ../scss/_alerts.scss */
+.alert-inverse {
+  background-color: #404040;
+  border-color: #363636;
+  color: white;
+  font-weight: normal;
+}
+/* line 109, ../scss/_alerts.scss */
+.alert-inverse .close {
+  color: inherit;
+}
+
+/* line 8, ../scss/_blocks.scss */
+.blck {
+  margin: 12px;
+}
+
+/* line 21, ../scss/_blocks.scss */
+.bd, .ft, .hd {
+  overflow: hidden;
+  *overflow: visible;
+  zoom: 1;
+}
+
+/* line 28, ../scss/_blocks.scss */
+.well {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #f2f2f2));
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background-image: -ms-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background-image: linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  margin-bottom: 1.5em;
+  border-style: solid;
+  border-width: 0.125em;
+  padding: 0.625em;
+  border-color: #bfbfbf;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 15, ../scss/_texture.scss */
+.well p {
+  margin: 0;
+}
+
+/* line 34, ../scss/_blocks.scss */
+.island {
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-bottom: 1.5em;
+}
+/* line 43, ../scss/_blocks.scss */
+.island > :last-child {
+  /* Remove the margin from the last child of a boxed off area so that we don't end up with compounded margin/padding spacings. */
+  margin-bottom: 0;
 }
 
 /* Tables =================================================== */
@@ -989,47 +1135,47 @@ table tbody tr:nth-child(odd):hover th {
 
 /* line 40, ../scss/_demo.scss */
 .swatch-base div:nth-child(1) {
-  background-color: #7fcce5;
+  background-color: #99d6ea;
 }
 /* line 44, ../scss/_demo.scss */
 .swatch-base div:nth-child(1) span {
-  background-color: #78c1d9;
+  background-color: #91cbde;
 }
 
 /* line 50, ../scss/_demo.scss */
 .swatch-base div:nth-child(2) {
-  background-color: #bfe5f2;
+  background-color: #d6eef6;
 }
 /* line 54, ../scss/_demo.scss */
 .swatch-base div:nth-child(2) span {
-  background-color: #b5d9e5;
+  background-color: #cbe2e9;
 }
 
 /* line 60, ../scss/_demo.scss */
 .swatch-base div:nth-child(3) {
-  background-color: #3f6672;
+  background-color: #4c6b75;
 }
 /* line 64, ../scss/_demo.scss */
 .swatch-base div:nth-child(3) span {
-  background-color: #3b606c;
+  background-color: #48656f;
 }
 
 /* line 70, ../scss/_demo.scss */
 .swatch-base div:nth-child(4) {
-  background-color: #00c1ff;
+  background-color: #00c0ff;
 }
 /* line 74, ../scss/_demo.scss */
 .swatch-base div:nth-child(4) span {
-  background-color: #00b7f2;
+  background-color: #00b6f2;
 }
 
 /* line 84, ../scss/_demo.scss */
 .comp-base div:nth-child(1) {
-  background-color: #00c1ff;
+  background-color: #00c0ff;
 }
 /* line 88, ../scss/_demo.scss */
 .comp-base div:nth-child(1) span {
-  background-color: #00b7f2;
+  background-color: #00b6f2;
 }
 
 /* line 94, ../scss/_demo.scss */
@@ -1043,162 +1189,162 @@ table tbody tr:nth-child(odd):hover th {
 
 /* line 104, ../scss/_demo.scss */
 .comp-base div:nth-child(3) {
-  background-color: #00ffe8;
+  background-color: #00ffe9;
 }
 /* line 108, ../scss/_demo.scss */
 .comp-base div:nth-child(3) span {
-  background-color: #00f2dc;
+  background-color: #00f2dd;
 }
 
 /* line 114, ../scss/_demo.scss */
 .comp-base div:nth-child(4) {
-  background-color: #ff3e00;
+  background-color: #ff3f00;
 }
 /* line 118, ../scss/_demo.scss */
 .comp-base div:nth-child(4) span {
-  background-color: #f23a00;
+  background-color: #f23b00;
 }
 
 /* line 127, ../scss/_demo.scss */
 .info-base div:nth-child(1) {
-  background-color: #d9edf7;
+  background-color: #99d6ea;
 }
 /* line 131, ../scss/_demo.scss */
 .info-base div:nth-child(1) span {
-  background-color: #cee1ea;
+  background-color: #91cbde;
 }
 
 /* line 137, ../scss/_demo.scss */
 .info-base div:nth-child(2) {
-  background-color: #d9e8f7;
+  background-color: #99c9ea;
 }
 /* line 141, ../scss/_demo.scss */
 .info-base div:nth-child(2) span {
-  background-color: #cedcea;
+  background-color: #91bede;
 }
 
 /* line 147, ../scss/_demo.scss */
 .info-base div:nth-child(3) {
-  background-color: #d9e3f7;
+  background-color: #99bbea;
 }
 /* line 151, ../scss/_demo.scss */
 .info-base div:nth-child(3) span {
-  background-color: #ced7ea;
+  background-color: #91b1de;
 }
 
 /* line 157, ../scss/_demo.scss */
 .info-base div:nth-child(4) {
-  background-color: #d9d9f7;
+  background-color: #99a0ea;
 }
 /* line 161, ../scss/_demo.scss */
 .info-base div:nth-child(4) span {
-  background-color: #ceceea;
+  background-color: #9198de;
 }
 
 /* line 171, ../scss/_demo.scss */
 .error-base div:nth-child(1) {
-  background-color: #ff7f7f;
+  background-color: #ff9999;
 }
 /* line 175, ../scss/_demo.scss */
 .error-base div:nth-child(1) span {
-  background-color: #f27878;
+  background-color: #f29191;
 }
 
 /* line 181, ../scss/_demo.scss */
 .error-base div:nth-child(2) {
-  background-color: #f98585;
+  background-color: #fa9e9e;
 }
 /* line 185, ../scss/_demo.scss */
 .error-base div:nth-child(2) span {
-  background-color: #ec7e7e;
+  background-color: #ed9696;
 }
 
 /* line 191, ../scss/_demo.scss */
 .error-base div:nth-child(3) {
-  background-color: #f28c8c;
+  background-color: #f5a3a3;
 }
 /* line 195, ../scss/_demo.scss */
 .error-base div:nth-child(3) span {
-  background-color: #e58585;
+  background-color: #e89a9a;
 }
 
 /* line 201, ../scss/_demo.scss */
 .error-base div:nth-child(4) {
-  background-color: #ec9292;
+  background-color: #f0a8a8;
 }
 /* line 205, ../scss/_demo.scss */
 .error-base div:nth-child(4) span {
-  background-color: #e08a8a;
+  background-color: #e49f9f;
 }
 
 /* line 214, ../scss/_demo.scss */
 .success-base div:nth-child(1) {
-  background-color: #7fe57f;
+  background-color: #99ea99;
 }
 /* line 218, ../scss/_demo.scss */
 .success-base div:nth-child(1) span {
-  background-color: #78d978;
+  background-color: #91de91;
 }
 
 /* line 224, ../scss/_demo.scss */
 .success-base div:nth-child(2) {
-  background-color: #77ed77;
+  background-color: #93f093;
 }
 /* line 228, ../scss/_demo.scss */
 .success-base div:nth-child(2) span {
-  background-color: #71e171;
+  background-color: #8be48b;
 }
 
 /* line 234, ../scss/_demo.scss */
 .success-base div:nth-child(3) {
-  background-color: #70f470;
+  background-color: #8df68d;
 }
 /* line 238, ../scss/_demo.scss */
 .success-base div:nth-child(3) span {
-  background-color: #6ae76a;
+  background-color: #85e985;
 }
 
 /* line 244, ../scss/_demo.scss */
 .success-base div:nth-child(4) {
-  background-color: #68fc68;
+  background-color: #87fc87;
 }
 /* line 248, ../scss/_demo.scss */
 .success-base div:nth-child(4) span {
-  background-color: #62ef62;
+  background-color: #80ef80;
 }
 
 /* line 258, ../scss/_demo.scss */
 .warning-base div:nth-child(1) {
-  background-color: #ffe57f;
+  background-color: #ffea99;
 }
 /* line 262, ../scss/_demo.scss */
 .warning-base div:nth-child(1) span {
-  background-color: #f2d978;
+  background-color: #f2de91;
 }
 
 /* line 268, ../scss/_demo.scss */
 .warning-base div:nth-child(2) {
-  background-color: #fff07f;
+  background-color: #fff399;
 }
 /* line 272, ../scss/_demo.scss */
 .warning-base div:nth-child(2) span {
-  background-color: #f2e478;
+  background-color: #f2e691;
 }
 
 /* line 278, ../scss/_demo.scss */
 .warning-base div:nth-child(3) {
-  background-color: #fffa7f;
+  background-color: #fffb99;
 }
 /* line 282, ../scss/_demo.scss */
 .warning-base div:nth-child(3) span {
-  background-color: #f2ed78;
+  background-color: #f2ee91;
 }
 
 /* line 288, ../scss/_demo.scss */
 .warning-base div:nth-child(4) {
-  background-color: #f9ff7f;
+  background-color: #fbff99;
 }
 /* line 292, ../scss/_demo.scss */
 .warning-base div:nth-child(4) span {
-  background-color: #ecf278;
+  background-color: #eef291;
 }

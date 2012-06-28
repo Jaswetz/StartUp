@@ -15,6 +15,7 @@
 
 // Variables and mixins
 @import "settings";
+@import "texture";
 //@import "mixins";
 
 // Site wide styles (html, body, scaffolding)
@@ -36,13 +37,17 @@
 // TEXTURE
 
 // Alerts, badges, boxes and gradients
-//@import "texture";
+
+@import "alerts";
 
 // Font Awesome icon fonts (optional)
 //@import "font-awesome";
 
 // ---------------------------------------------------------------------------
 // ELEMENTS
+
+//Blocks and Modules
+@import "blocks";
 
 // Figures, images and other elements
 //@import "elements";
