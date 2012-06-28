@@ -129,6 +129,18 @@ $quadrary					: color-schemer(quadrary);
 $borderColor				: darken($baseColor, 40%);
 
 
+
+// ---------------------------------------------------------------------------
+// BOX SHADOW
+
+$default-box-shadow-color 	: rgba(51,51,51,.3); 								//The default color for box shadows
+$default-box-shadow-h-offset: 0px;												//The default horizontal offset. Positive is to the right.
+$default-box-shadow-v-offset: 0px;												//The default vertical offset. Positive is down.
+$default-box-shadow-blur	: 5px;												//The default blur length.
+$default-box-shadow-spread 	: false;											//The default spread length.
+$default-box-shadow-inset	: false;											//inset or false (for standard shadow).
+
+
 // ---------------------------------------------------------------------------
 // SASSY BUTTONS
 
@@ -180,8 +192,11 @@ $round-to-nearest-half-line : false;
 $min-line-padding 			: 2px;
 $font-unit 					: if($relative-font-sizing, 1em, $base-font-size);
 
+
+
 // ---------------------------------------------------------------------------
 // TABLES
+
 $tableFontSize				: $baseFontSize;
 $tableBackground			: $white;
 $tableBorderWidth 			: 1px;
@@ -189,6 +204,21 @@ $tableBorderColor			: $grayLight;
 $tableBorderStyle 			: solid;
 $tableHover					: $linkColor;
 $tableStripe				: $grayLighter;
+
+
+
+// ---------------------------------------------------------------------------
+// FORMS
+
+//INPUTS
+$inputBackground			: lighten($baseColorShade, 55%);
+$inputBorder   				: $baseColorTint;
+$inputBorderRadius			: $defaultBorderRadius;
+$inputFocusBorder			: lighten($baseColorShade, 30%);
+$inputTextColor				: lighten($baseColorShade, 30%);
+
+$inputDisabledBackground	: $grayLighter;
+$inputDisabledBorder		: $grayLight;
 
 
 
