@@ -1,0 +1,162 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+
+// ---------------------------------------------------------------------------
+// @ROOT
+
+/* render media-ready elements at any size */
+img, embed, object, video 
+{
+    max-width: 100%;
+}
+
+/* corrects `block` display */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section 
+{
+    display: block;
+}
+
+/* corrects `inline-block` display not defined in IE 8/9 */
+audio,
+canvas,
+video 
+{
+    display: inline-block;
+}
+
+/* Addresses styling for `hidden` attribute not present in IE 8/9. */
+
+[hidden] 
+{
+    display: none;
+}
+
+
+
+
+// ---------------------------------------------------------------------------
+// @BASE
+
+
+html 
+{
+    font-family: sans-serif; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+body 
+{
+    margin: 0;
+    background-color: #eee;
+}
+
+
+
+
+// ---------------------------------------------------------------------------
+// @WEBFONTS
+
+/* @license
+ * MyFonts Webfont Build ID 2357338, 2012-09-06T13:21:40-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Arcus by Carnoky Type
+ * URL: http://www.myfonts.com/fonts/carnoky/arcus/regular/
+ * Copyright: Copyright (c) 2008 by Samuel Carnoky, CarnokyTypes. All rights reserved.
+ * Licensed pageviews: Unlimited
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2357338
+ * 
+ * © 2012 Bitstream Inc
+*/
+
+ @font-face {font-family: 'Arcus';src: url('../webfonts/23F85A_0_0.eot');src: url('../webfonts/23F85A_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/23F85A_0_0.woff') format('woff'),url('../webfonts/23F85A_0_0.ttf') format('truetype');}
+ 
+
+

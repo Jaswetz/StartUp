@@ -1,74 +1,13 @@
 //----------------------------------------------------------------------------
 // site.scss
-// The base styles and base layout go here. 
+// the main styles and main layout go here 
 //----------------------------------------------------------------------------
 
 
 // ---------------------------------------------------------------------------
-// ROOT
+// @SITE STYLES
 
-html 
-{
-	background : $bodyBackground;
-	font-size : 62.5%;
-	-webkit-overflow-scrolling : touch;
-	-webkit-tap-highlight-color : lighten($baseColor, 75%);
-	-webkit-text-size-adjust : 100%;
-	-ms-text-size-adjust : 100%; 
-}
-
-body 
-{
-	margin : 0;
-	padding : 0;
-	width : 100%;
-	background-color : transparent;
-	font-family : $baseFontFamily;
-	font-size: $baseFontSize;
-	line-height : $baseLineHeight;
-	color : $baseTextColor;
-
-	//DEBUG
-	 @include debug-vertical-alignment(); 
-}
-
-//Render media-ready elements at any size
-img,
-embed, 
-object, 
-video 
-{
-	max-width: 100%;
-}
 
 // ---------------------------------------------------------------------------
-// LAYOUT
-
-.page 
-{
-  @include container;
-  @include susy-grid-background;
-}
-
-// HEADER
-
-.header
-{
-	margin: 0 auto;
-}
-
-// CONTENT
-
-.content
-{
-
-}
-
-// FOOTER
-
-footer
-{
-
-}
-
+// @LAYOUT
 

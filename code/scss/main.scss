@@ -1,76 +1,17 @@
 //----------------------------------------------------------------------------
 // main.scss
+// centralize imports here
 //----------------------------------------------------------------------------
 
-// ---------------------------------------------------------------------------
-// ROOT
-
-// Compass
+// compass
+@import "compass/reset";
 @import "compass";
 @import "compass/typography/vertical_rhythm";
 
-// CSS reset
-@import "normalize";
-// @import "modernizr";
-
 // Variables and mixins
+@import "dependencies";
 @import "settings";
-@import "texture";
-//@import "mixins";
 
-// Site wide styles (html, body, scaffolding)
+// main styles
 @import "site";
-
-// ---------------------------------------------------------------------------
-// TYPOGRAPHY
-
-// Block level (h1, p) and text-level (em, strong) type
-@import "typography";
-
-// ---------------------------------------------------------------------------
-// COLOURS
-
-// Colour interaction semantics
-//@import "colour";
-
-// ---------------------------------------------------------------------------
-// TEXTURE
-
-// Alerts, badges, boxes and gradients
-
-@import "alerts";
-
-// Font Awesome icon fonts (optional)
-//@import "font-awesome";
-
-// ---------------------------------------------------------------------------
-// ELEMENTS
-
-//Blocks and Modules
-@import "blocks";
-
-// Figures, images and other elements
-//@import "elements";
-
-// Standard form controls
-@import "forms";
-
-// Button styles (optional)
-@import "buttons";
-
-// Tables
-@import "tables";
-
-// ---------------------------------------------------------------------------
-// LAYOUT
-
-// Page level layout styles (banner, navigation, content, contentinfo)
-//@import "page";
-
-@import "demo";
-
-// ---------------------------------------------------------------------------
-// MEDIA QUERIES
-
-
 
