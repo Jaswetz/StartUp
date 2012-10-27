@@ -1,0 +1,94 @@
+//----------------------------------------------------------------------------
+// base.scss
+// Imports, settings, and variables
+//----------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------
+// Imports
+
+@import "susy";
+
+// ---------------------------------------------------------------------------
+// Basic Grid
+
+$total-columns  			: 7;
+$column-width   			: 4em;
+$gutter-width   			: 1em;
+$grid-padding   			: $gutter-width;
+
+$break1          			: 12;
+$break2         			: 8;
+
+$show-grid-backgrounds  	: true;
+
+// ---------------------------------------------------------------------------
+// COLORS
+
+//TINT AND SHADE
+
+$tintPercent				: 30%;
+$shadePercent				: 20%;
+
+// GRAYS
+$black						: rgb(0,0,0) ;
+$grayDark					: lighten($black, 25%) ;
+$gray 						: lighten($black, 50%) ;
+$grayLight 					: lighten($black, 75%) ;
+$grayLighter				: lighten($black, 90%) ;
+$white						: rgb(255,255,255)     ;
+
+// COLORS
+$red 						: #e35d5b ;
+$orange 					: #e8632c ;
+$yellow 					: #e8b000 ;
+$Green 						: #b1cc00 ;
+$cyan						: #35c9be ;
+$blue 						: #4ca2df ;
+$violet 					: #9094d3 ;
+$magenta 					: #dc609c ;
+
+// LINKS
+$linkColor 		    		: $blue;
+$linkColorTint 				: tint($linkColor, 30%);
+$linkColorShade 			: shade($linkColor, 20%);
+$linkColorHover 			: darken($linkColor, 10);
+$linkColorVisited   		: darken($linkColorHover, 10);
+$linkColorFocus 			: darken($linkColorVisited, 10);
+
+// TINTS
+
+$redTint 					: tint($red, $tintPercent) ;
+$orangeTint 				: tint($orange, $tintPercent) ;
+$yellowTint					: tint($yellow, $tintPercent) ;
+$greenTint 					: tint($Green, $tintPercent) ;
+$cyanTint 					: tint($cyan, $tintPercent) ;
+$blueTint 					: tint($blue, $tintPercent) ;
+$violetTint 				: tint($violet, $tintPercent) ;
+$magentaTint 				: tint($magenta, $tintPercent) ;
+
+
+// SHADES
+
+$redshade 					: shade($red, $shadePercent) ;
+$orangeshade 				: shade($orange, $shadePercent) ;
+$yellowshade				: shade($yellow, $shadePercent) ;
+$greenshade 				: shade($Green, $shadePercent) ;
+$cyanshade 					: shade($cyan, $shadePercent) ;
+$blueshade 					: shade($blue, $shadePercent) ;
+$violetshade 				: shade($violet, $shadePercent) ;
+$magentashade 				: shade($magenta, $shadePercent) ;
+
+
+// ---------------------------------------------------------------------------
+// Z-INDEX
+
+// Z-index master list
+// Used for a bird's eye view of components dependent on the z-axis
+// Try to avoid customizing these :)
+$zindexDropdown				: 1000 ;
+$zindexPopover				: 1010 ;
+$zindexTooltip				: 1020 ;
+$zindexFixedNavbar			: 1030 ;
+$zindexModalBackdrop		: 1040 ;
+$zindexModal 				: 1050 ;
+

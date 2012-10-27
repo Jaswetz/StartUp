@@ -1,0 +1,11 @@
+// ---------------------------------------------------------------------------
+// @TABLES
+// ---------------------------------------------------------------------------
+
+$tableFontSize				: $baseFontSize;
+$tableBackground			: $white;
+$tableBorderWidth 			: 1px;
+$tableBorderColor			: $grayLight;
+$tableBorderStyle 			: solid;
+$tableHover					: lighten($baseColor, 35%);
+$tableStripe				: $grayLighter;

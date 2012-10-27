@@ -1,0 +1,47 @@
+//----------------------------------------------------------------------------
+// main.scss
+// centralize imports here
+//----------------------------------------------------------------------------
+
+
+// ---------------------------------------------------------------------------
+// @ROOT
+
+// @VENDORS //
+@import "compass/reset";
+@import "compass";
+@import "compass/typography/vertical_rhythm";
+//@import "base";
+//@import "modernizr";
+
+// ---------------------------------------------------------------------------
+// @BASE
+
+//@import "dependencies";
+@import "settings";
+@import "styles";
+@import "typography";
+//@import "blocks";
+//@import "mixins";
+@import "helper";
+@import "base";
+
+
+// ---------------------------------------------------------------------------
+// @ELEMENTS
+
+//@import "ui";
+
+@import "forms";
+
+@import "tables";
+
+// ---------------------------------------------------------------------------
+// @LAYOUT
+
+@import "site";
+
+//@import "demo";
+
+
+

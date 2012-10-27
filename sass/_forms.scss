@@ -1,0 +1,17 @@
+// ---------------------------------------------------------------------------
+// @FORMS
+// ---------------------------------------------------------------------------
+
+
+// ---------------------------------------------------------------------------
+// FORMS
+
+//INPUTS
+$inputBackground			: lighten($baseColorShade, 55%);
+$inputBorder   				: $baseColorTint;
+$inputBorderRadius			: .5em;
+$inputFocusBorder			: lighten($baseColorShade, 30%);
+$inputTextColor				: lighten($baseColorShade, 30%);
+
+$inputDisabledBackground	: $grayLighter;
+$inputDisabledBorder		: $grayLight;
