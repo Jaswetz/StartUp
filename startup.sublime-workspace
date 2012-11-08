@@ -1,0 +1,779 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"btn",
+				"ui-btn-inner"
+			],
+			[
+				"blu",
+				"blueBtn"
+			],
+			[
+				"purple",
+				"purpleLight"
+			],
+			[
+				"bl",
+				"blackTransparentMed"
+			],
+			[
+				"blue",
+				"blueBtnDark"
+			],
+			[
+				"backgro",
+				"background-image"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"white",
+				"whiteTransparentHigh"
+			],
+			[
+				"text",
+				"textInset-white"
+			],
+			[
+				"comment",
+				"comment head	comment-head"
+			],
+			[
+				"trans",
+				"transparency"
+			],
+			[
+				"top",
+				"top-bar-color"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"gray",
+				"grayDarker"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"nav",
+				"navBackgroundColor"
+			],
+			[
+				"base",
+				"baseFontSize"
+			],
+			[
+				"span",
+				"span-columns"
+			],
+			[
+				"spa",
+				"span-columns"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"fon-",
+				"adjust-font-size-to"
+			],
+			[
+				"hea",
+				"headingsFontFamily"
+			],
+			[
+				"margin",
+				"margin-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "sass/_typography.scss",
+			"settings":
+			{
+				"buffer_size": 5680,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/main.scss",
+			"settings":
+			{
+				"buffer_size": 963,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_site.scss",
+			"settings":
+			{
+				"buffer_size": 215,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"comb",
+				"Sort via CSScomb"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 81.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jasonds/Sites/personal/startup/sass/_site.scss",
+		"/Users/jasonds/Sites/personal/startup/css/main.css",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/sass/_ui.scss",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/sass/_typography.scss",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/css/main.css",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/sass/_base.scss",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/sass/_override.scss",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/sass/_jquery.scss",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/sass/_jquery.scss",
+		"/Users/jasonds/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jasonds/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/sass/_settings.scss",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/sass/_site.scss",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/sass/main.scss",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/sass/_jquery.mobile-styles.css",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/sass/normalize.scss",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram 2/js/vendor/jqmobile/jquery.mobile-1.2.0.css",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram 2/index.html",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/sass/_buttons.scss",
+		"/Users/jasonds/Downloads/fontello-147c0c49/demo.html",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/sass/_styles.scss",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/js/vendor/jqmobile/jquery.mobile.theme-1.2.0.css",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/index.html",
+		"/Users/jasonds/Desktop/iphone top bar sass.scss",
+		"/Users/jasonds/Library/Application Support/Sublime Text 2/Packages/User/snippets/transparentize.sublime-snippet",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/sass/_dependencies.scss",
+		"/Users/jasonds/Library/Application Support/Sublime Text 2/Packages/User/snippets/sass/comment-head",
+		"/Users/jasonds/Library/Application Support/Sublime Text 2/Packages/User/snippets/sass/comment",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/pre-chemo.html",
+		"/Volumes/Projects/Clients/Sanofi/Jevtana/SA_1204_Nomogram_App/Creative/Assets/dot-pattern.png",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/.gitignore",
+		"/Users/jasonds/Sites/personal/portfolio/portfolio.sublime-project",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/code/scss/_typography.scss",
+		"/Users/jasonds/Sites/Intstrux/sanofi/jevtana/namogram/code/scss/_base.scss",
+		"/Users/jasonds/Sites/personal/blog 2/provision.sh",
+		"/Users/jasonds/Dropbox/My Documents/Notational Data/101112 N1 FILE SYSTEM PHILOSOPHY.md",
+		"/Users/jasonds/Dropbox/My Documents/Notational Data/function.md",
+		"/Users/jasonds/Sites/personal/blog 2/Vagrantfile",
+		"/Users/jasonds/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/jasonds/Sites/personal/js/sass/_settings.scss",
+		"/Users/jasonds/Sites/themworks/om-boxy/sass/_slider.scss",
+		"/Users/jasonds/Sites/personal/js/sass/_site.scss",
+		"/Users/jasonds/Sites/Intstrux/video share/index.html",
+		"/Users/jasonds/Sites/Intstrux/video share/sass/main.scss",
+		"/Users/jasonds/Sites/Intstrux/mamp/videoshare/sites/all/themes/intstrux_videosharing/sass/main.scss",
+		"/Users/jasonds/Sites/Intstrux/mamp/videoshare/sites/all/themes/vision/css/main.css",
+		"/Users/jasonds/Sites/Intstrux/mamp/videoshare/sites/all/themes/vision/provision.sh",
+		"/Users/jasonds/Sites/themworks/om-boxy/index.html",
+		"/Users/jasonds/Sites/themworks/om-boxy/js/jquery.transit.js",
+		"/Users/jasonds/Sites/Intstrux/video share/sass/_normalizer.scss",
+		"/Users/jasonds/Sites/themworks/om-html-css/views/sidebarView.php",
+		"/Users/jasonds/Sites/themworks/om-html-css/assets/fonts/demo.html",
+		"/Users/jasonds/Sites/themworks/om-html-css/code/scss/_settings.scss",
+		"/Users/jasonds/Sites/themworks/om-html-css/code/scss/_typography.scss",
+		"/Users/jasonds/Sites/themworks/om-html-css/views/homeSliderView.php",
+		"/Users/jasonds/Sites/themworks/om-html-css/code/css/holmes.min.css",
+		"/Users/jasonds/Sites/themworks/om-html-css/home.php",
+		"/Users/jasonds/Sites/themworks/om-html-css/code/js/royalslider-settings.js",
+		"/Users/jasonds/Sites/themworks/om-html-css/views/footerView.php",
+		"/Users/jasonds/Sites/themworks/om-html-css/views/headerView.php",
+		"/Users/jasonds/Sites/themworks/om-html-css/views/homeContentView.php",
+		"/Users/jasonds/Sites/themworks/om-html-css/code/scss/_768.scss",
+		"/Users/jasonds/Sites/themworks/om-html-css/views/linkView.php",
+		"/Users/jasonds/Sites/themworks/om-html-css/code/scss/_mixins.scss",
+		"/Users/jasonds/Sites/om-html-css/Vagrantfile",
+		"/Users/jasonds/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/jasonds/Sites/Intstrux/vagrant/public/dev-site.vbox.local/www/sites/all/themes/intstrux_videosharing/css/global.css",
+		"/Users/jasonds/Sites/personal/startup/code/scss/_dependencies.scss",
+		"/Users/jasonds/Sites/personal/startup/code/scss/_settings.scss",
+		"/Users/jasonds/Sites/personal/startup/code/scss/_site.scss",
+		"/Users/jasonds/Sites/personal/startup/code/scss/_typography.scss",
+		"/Users/jasonds/Sites/personal/startup/code/scss/_base.scss",
+		"/Users/jasonds/Sites/personal/startup/code/scss/global.scss",
+		"/Users/jasonds/Sites/om-html-css/code/scss/_768.scss",
+		"/private/etc/hosts",
+		"/Users/jasonds/Sites/Intstrux/vagrant/Vagrantfile",
+		"/Users/jasonds/Sites/Intstrux/INT_Videoshare_Drupal7/Vagrantfile",
+		"/bin/hosts",
+		"/Users/jasonds/Documents/Projects/Tutorials/Git Real/LICENSE.mdown",
+		"/Users/jasonds/Sites/om-html-css/.sass-cache/27353599636dde79edc184cc7800914bae040b73/_blocks.scssc",
+		"/Users/jasonds/Sites/om-html-css/code/scss/_site.scss",
+		"/Users/jasonds/Sites/om-html-css/code/scss/_base.scss",
+		"/Users/jasonds/Downloads/h5bp-mobile-boilerplate-b5caeba/index.html",
+		"/Users/jasonds/Downloads/h5bp-html5-boilerplate-2279296/index.html",
+		"/Users/jasonds/Downloads/initializr/css/main.css",
+		"/Users/jasonds/Downloads/initializr/index.html",
+		"/Users/jasonds/Sites/celgene/microsite/gen-microsite/indext.html"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open folders>",
+			"<open files>",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"width",
+			"px",
+			"#fff;",
+			"ui-btn-up-a",
+			"ui-btn-up",
+			"Helvetica,Arial,sans-serif",
+			"#fff",
+			"5566b1",
+			"#111111",
+			"#3c3c3c",
+			"$purpleDark",
+			"ui-btn",
+			"ui-btn-inner",
+			"10px",
+			"text-shadow",
+			"shadow",
+			".ui-listview",
+			".ui-btn-text",
+			"ui-btn-active",
+			"active",
+			".ui-btn-active",
+			"active",
+			"body",
+			"box-shadow",
+			"background-image:",
+			"list",
+			"n1-q1",
+			" \n",
+			"ui-corner-tl",
+			"ui-corner",
+			"y-c",
+			"icon",
+			"red",
+			"white",
+			"active",
+			"%bluebtn",
+			"y-b",
+			"-b",
+			"y-b",
+			"-b",
+			"ui-btn-acti",
+			"ui-btn",
+			"ui-icon",
+			"custom",
+			"ui-icon",
+			"ui-btn-active",
+			"topBar",
+			"(true)",
+			"\n$",
+			"//----------------------------------------------------------------------------",
+			"\n			",
+			"\n}",
+			"btn-up",
+			"back",
+			"@include",
+			"img",
+			"divider",
+			".visibleNearby",
+			"header",
+			"Lo",
+			"nav",
+			"black",
+			"nav",
+			"class=\"page",
+			" ;",
+			"header",
+			"img",
+			"em",
+			"super",
+			"img",
+			"ignore",
+			"italic",
+			"role",
+			"768",
+			"doctype"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"red",
+			"//@include"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sass/_typography.scss",
+					"settings":
+					{
+						"buffer_size": 5680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1188,
+								1188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2351.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/main.scss",
+					"settings":
+					{
+						"buffer_size": 963,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 36.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/_site.scss",
+					"settings":
+					{
+						"buffer_size": 215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								215,
+								215
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"si",
+				"sass/_site.scss"
+			],
+			[
+				"main",
+				"sass/main.scss"
+			],
+			[
+				"site",
+				"sass/_site.scss"
+			],
+			[
+				"typ",
+				"sass/_typography.scss"
+			],
+			[
+				"index",
+				"namogram/postchemo/index.html"
+			],
+			[
+				"inde",
+				"namogram/index.html"
+			],
+			[
+				"ui",
+				"namogram/sass/_ui.scss"
+			],
+			[
+				"jqu",
+				"namogram/sass/_jquery.scss"
+			],
+			[
+				"base",
+				"namogram/sass/_base.scss"
+			],
+			[
+				"sett",
+				"namogram/sass/_settings.scss"
+			],
+			[
+				"sty",
+				"namogram/sass/_styles.scss"
+			],
+			[
+				"j",
+				"namogram/sass/_jquery.scss"
+			],
+			[
+				"pre",
+				"namogram/pre-chemo.html"
+			],
+			[
+				"settin",
+				"namogram/sass/_settings.scss"
+			],
+			[
+				"ty",
+				"sass/_typography.scss"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"button",
+				"sass/_buttons.scss"
+			],
+			[
+				"styl",
+				"sass/_styles.scss"
+			],
+			[
+				"styles",
+				"sass/_styles.scss"
+			],
+			[
+				"style",
+				"sass/_styles.scss"
+			],
+			[
+				"st",
+				"sass/_styles.scss"
+			],
+			[
+				"",
+				"sass/_site.scss"
+			],
+			[
+				"glo",
+				"sass/global.scss"
+			],
+			[
+				"slid",
+				"sass/_slider.scss"
+			],
+			[
+				"ine",
+				"index.html"
+			],
+			[
+				"set",
+				"sass/_settings.scss"
+			],
+			[
+				"dep",
+				"sass/_dependencies.scss"
+			],
+			[
+				"ele",
+				"om-html-css/code/scss/_elements.scss"
+			],
+			[
+				"blo",
+				"om-html-css/code/scss/_blocks.scss"
+			],
+			[
+				"mix",
+				"om-html-css/code/scss/_mixins.scss"
+			],
+			[
+				"block",
+				"om-html-css/code/scss/_blocks.scss"
+			],
+			[
+				"bloc",
+				"om-html-css/code/scss/_blocks.scss"
+			],
+			[
+				"hea",
+				"om-html-css/views/headerView.php"
+			],
+			[
+				"blocks",
+				"om-html-css/code/scss/_blocks.scss"
+			],
+			[
+				"tex",
+				"om-html-css/code/scss/_texture.scss"
+			],
+			[
+				"mai",
+				"om-html-css/code/scss/main.scss"
+			],
+			[
+				"768",
+				"om-html-css/code/scss/_768.scss"
+			],
+			[
+				"el",
+				"om-html-css/code/scss/_elements.scss"
+			],
+			[
+				"footer",
+				"om-html-css/views/footerView.php"
+			],
+			[
+				"head",
+				"om-html-css/views/headerView.php"
+			],
+			[
+				"home",
+				"om-html-css/views/homeContentView.php"
+			],
+			[
+				"header",
+				"om-html-css/views/headerView.php"
+			],
+			[
+				"saett",
+				"om-html-css/code/js/royalslider-settings.js"
+			],
+			[
+				"side",
+				"om-html-css/views/sidebarView.php"
+			],
+			[
+				"typo",
+				"om-html-css/code/scss/_typography.scss"
+			],
+			[
+				"sid",
+				"om-html-css/views/sidebarView.php"
+			],
+			[
+				"setting",
+				"om-html-css/code/scss/_settings.scss"
+			],
+			[
+				"ba",
+				"om-html-css/code/scss/_base.scss"
+			],
+			[
+				"glob",
+				"sass/global.scss"
+			],
+			[
+				"depe",
+				"code/scss/_dependencies.scss"
+			],
+			[
+				"7",
+				"code/scss/_768.scss"
+			],
+			[
+				"settings",
+				"code/scss/_settings.scss"
+			],
+			[
+				"blok",
+				"code/scss/_blocks.scss"
+			],
+			[
+				"heade",
+				"views/headerView.php"
+			],
+			[
+				"sca",
+				"code/scss/_scaffolding.scss"
+			],
+			[
+				"vag",
+				"Vagrantfile"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/jasonds/Sites/themworks/blog/themworks-blog.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 329.0,
+	"status_bar_visible": false
+}

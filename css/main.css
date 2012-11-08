@@ -1,4 +1,4 @@
-/* line 17, /opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,61 +20,61 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, /opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, /opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, /opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, /opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, /opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, /opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, /opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, /opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 61, /opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 61, ../../opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
   font-size: 100%;
 }
 
-/* line 64, /opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 64, ../../opt/vagrant_ruby/lib/ruby/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 16px;
   line-height: 1.5em;
 }
 
-/* line 54, /vagrant/sass/_typography.scss */
+/* line 55, ../sass/_typography.scss */
 p,
 ol,
 ul,
@@ -86,7 +86,7 @@ address {
   margin-bottom: 1.5em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-/* line 59, /vagrant/sass/_typography.scss */
+/* line 60, ../sass/_typography.scss */
 p small,
 ol small,
 ul small,
@@ -99,19 +99,19 @@ address small {
   margin-bottom: 2em;
 }
 
-/* line 71, /vagrant/sass/_typography.scss */
+/* line 72, ../sass/_typography.scss */
 a {
   color: #4ca2df;
   text-decoration: none;
 }
 
-/* line 76, /vagrant/sass/_typography.scss */
+/* line 77, ../sass/_typography.scss */
 a:hover {
   color: #268bd2;
   text-decoration: underline;
 }
 
-/* line 87, /vagrant/sass/_typography.scss */
+/* line 88, ../sass/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-family: inherit;
@@ -120,49 +120,49 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizelegibility;
 }
 
-/* line 96, /vagrant/sass/_typography.scss */
+/* line 97, ../sass/_typography.scss */
 h1 {
   padding-top: 1.5em;
   font-size: 2em;
   line-height: 1.5em;
 }
 
-/* line 102, /vagrant/sass/_typography.scss */
+/* line 103, ../sass/_typography.scss */
 h2 {
   margin-top: 1em;
   font-size: 1.5em;
   line-height: 2em;
 }
 
-/* line 108, /vagrant/sass/_typography.scss */
+/* line 109, ../sass/_typography.scss */
 h3 {
   margin-top: 1.14286em;
   font-size: 1.3125em;
   line-height: 2.28571em;
 }
 
-/* line 114, /vagrant/sass/_typography.scss */
+/* line 115, ../sass/_typography.scss */
 h4 {
   margin-top: 1.33333em;
   font-size: 1.125em;
   line-height: 1.33333em;
 }
 
-/* line 120, /vagrant/sass/_typography.scss */
+/* line 121, ../sass/_typography.scss */
 h5 {
   margin-top: 1.5em;
   font-size: 1em;
   line-height: 1.5em;
 }
 
-/* line 126, /vagrant/sass/_typography.scss */
+/* line 127, ../sass/_typography.scss */
 h6 {
   margin-top: 1.71429em;
   font-size: 0.875em;
   line-height: 1.71429em;
 }
 
-/* line 137, /vagrant/sass/_typography.scss */
+/* line 138, ../sass/_typography.scss */
 blockquote {
   color: gray;
   margin-top: 1.33333em;
@@ -177,12 +177,12 @@ blockquote {
   font-style: italic;
 }
 
-/* line 148, /vagrant/sass/_typography.scss */
+/* line 149, ../sass/_typography.scss */
 q {
   quotes: none;
 }
 
-/* line 156, /vagrant/sass/_typography.scss */
+/* line 157, ../sass/_typography.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -191,7 +191,7 @@ q:after {
   content: none;
 }
 
-/* line 162, /vagrant/sass/_typography.scss */
+/* line 163, ../sass/_typography.scss */
 blockquote:before {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-style: normal;
@@ -203,7 +203,7 @@ blockquote:before {
   opacity: .3;
 }
 
-/* line 173, /vagrant/sass/_typography.scss */
+/* line 174, ../sass/_typography.scss */
 cite {
   display: block;
   text-transform: uppercase;
@@ -212,29 +212,29 @@ cite {
   text-align: right;
   margin-right: 4em;
 }
-/* line 182, /vagrant/sass/_typography.scss */
+/* line 183, ../sass/_typography.scss */
 cite:before {
   content: "- ";
 }
 
-/* line 194, /vagrant/sass/_typography.scss */
+/* line 195, ../sass/_typography.scss */
 ul {
   margin: 0 0 0 1em;
   padding: 0;
   list-style-position: outside;
   list-style-type: disc;
 }
-/* line 201, /vagrant/sass/_typography.scss */
+/* line 202, ../sass/_typography.scss */
 ul .noStyle {
   list-style-type: none;
 }
 
-/* line 207, /vagrant/sass/_typography.scss */
+/* line 208, ../sass/_typography.scss */
 li {
   margin-bottom: 0.75em;
 }
 
-/* line 212, /vagrant/sass/_typography.scss */
+/* line 213, ../sass/_typography.scss */
 ol {
   margin: 0 0 0 1.3em;
   padding: 0;
@@ -242,53 +242,53 @@ ol {
   list-style-type: decimal;
 }
 
-/* line 223, /vagrant/sass/_typography.scss */
+/* line 224, ../sass/_typography.scss */
 dl,
 dd {
   margin-bottom: 24px;
 }
 
-/* line 228, /vagrant/sass/_typography.scss */
+/* line 229, ../sass/_typography.scss */
 dt {
   font-weight: bold;
 }
 
-/* line 236, /vagrant/sass/_typography.scss */
+/* line 237, ../sass/_typography.scss */
 .dl-horizontal dt {
   float: left;
   clear: left;
   width: 20.25%;
   text-align: right;
 }
-/* line 244, /vagrant/sass/_typography.scss */
+/* line 245, ../sass/_typography.scss */
 .dl-horizontal dd {
   margin-left: 22.78%;
 }
 
-/* line 255, /vagrant/sass/_typography.scss */
+/* line 256, ../sass/_typography.scss */
 abbr[title] {
   border-bottom: 1px dotted #411807;
   cursor: help;
 }
 
-/* line 261, /vagrant/sass/_typography.scss */
+/* line 262, ../sass/_typography.scss */
 b, strong {
   font-weight: bold;
 }
 
-/* line 266, /vagrant/sass/_typography.scss */
+/* line 267, ../sass/_typography.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 271, /vagrant/sass/_typography.scss */
+/* line 272, ../sass/_typography.scss */
 ins {
   background-color: white;
   color: #404040;
   text-decoration: none;
 }
 
-/* line 278, /vagrant/sass/_typography.scss */
+/* line 279, ../sass/_typography.scss */
 mark {
   background-color: white;
   color: #404040;
@@ -296,7 +296,7 @@ mark {
   font-weight: bold;
 }
 
-/* line 289, /vagrant/sass/_typography.scss */
+/* line 290, ../sass/_typography.scss */
 pre,
 code,
 kbd,
@@ -306,14 +306,14 @@ samp {
   line-height: 1.71429em;
 }
 
-/* line 295, /vagrant/sass/_typography.scss */
+/* line 296, ../sass/_typography.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 303, /vagrant/sass/_typography.scss */
+/* line 304, ../sass/_typography.scss */
 sub,
 sup {
   position: relative;
@@ -323,17 +323,17 @@ sup {
   vertical-align: 24px;
 }
 
-/* line 311, /vagrant/sass/_typography.scss */
+/* line 312, ../sass/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 316, /vagrant/sass/_typography.scss */
+/* line 317, ../sass/_typography.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 7, /vagrant/sass/_helper.scss */
+/* line 7, ../sass/_helper.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -341,7 +341,7 @@ sub {
   /* IE 6/7 fallback */
   *text-indent: -9999px;
 }
-/* line 15, /vagrant/sass/_helper.scss */
+/* line 15, ../sass/_helper.scss */
 .ir .ir:before {
   content: "";
   display: block;
@@ -349,13 +349,13 @@ sub {
   height: 100%;
 }
 
-/* line 25, /vagrant/sass/_helper.scss */
+/* line 25, ../sass/_helper.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 32, /vagrant/sass/_helper.scss */
+/* line 32, ../sass/_helper.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -367,7 +367,7 @@ sub {
   width: 1px;
 }
 
-/* line 48, /vagrant/sass/_helper.scss */
+/* line 48, ../sass/_helper.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -378,22 +378,22 @@ sub {
   width: auto;
 }
 
-/* line 60, /vagrant/sass/_helper.scss */
+/* line 60, ../sass/_helper.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 67, /vagrant/sass/_helper.scss */
+/* line 67, ../sass/_helper.scss */
 .responsive {
   max-width: 100%;
 }
 
-/* line 72, /vagrant/sass/_helper.scss */
+/* line 72, ../sass/_helper.scss */
 img.responsive {
   height: auto;
 }
 
-/* line 15, /vagrant/sass/_base.scss */
+/* line 15, ../sass/_base.scss */
 html,
 button,
 input,
@@ -402,7 +402,7 @@ textarea {
   color: #404040;
 }
 
-/* line 20, /vagrant/sass/_base.scss */
+/* line 20, ../sass/_base.scss */
 html {
   -webkit-overflow-scrolling: touch;
   -webkit-tap-highlight-color: white;
@@ -410,7 +410,7 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
-/* line 29, /vagrant/sass/_base.scss */
+/* line 29, ../sass/_base.scss */
 body {
   margin: 0;
   padding: 0;
@@ -420,50 +420,50 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 40, /vagrant/sass/_base.scss */
+/* line 40, ../sass/_base.scss */
 img, embed, object, video {
   max-width: 100%;
 }
 
-/* line 47, /vagrant/sass/_base.scss */
+/* line 47, ../sass/_base.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 56, /vagrant/sass/_base.scss */
+/* line 56, ../sass/_base.scss */
 ::-moz-selection {
   background: #e8632c;
   color: black;
   text-shadow: none;
 }
 
-/* line 63, /vagrant/sass/_base.scss */
+/* line 63, ../sass/_base.scss */
 ::selection {
   background: #e8632c;
   color: black;
   text-shadow: none;
 }
 
-/* line 72, /vagrant/sass/_base.scss */
+/* line 72, ../sass/_base.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 78, /vagrant/sass/_base.scss */
+/* line 78, ../sass/_base.scss */
 fieldset {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
-/* line 86, /vagrant/sass/_base.scss */
+/* line 86, ../sass/_base.scss */
 textarea {
   resize: vertical;
 }
 
 /* corrects `inline-block` display not defined in IE 8/9 */
-/* line 94, /vagrant/sass/_base.scss */
+/* line 94, ../sass/_base.scss */
 audio,
 canvas,
 video {
@@ -471,7 +471,7 @@ video {
 }
 
 /* Addresses styling for `hidden` attribute not present in IE 8/9. */
-/* line 101, /vagrant/sass/_base.scss */
+/* line 101, ../sass/_base.scss */
 [hidden] {
   display: none;
 }
@@ -479,10 +479,181 @@ video {
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
-/* line 110, /vagrant/sass/_base.scss */
+/* line 110, ../sass/_base.scss */
 .chromeframe {
   margin: 0.2em 0;
   padding: 0.2em 0;
   background: #ccc;
   color: #000;
+}
+
+/* line 11, ../sass/_demo.scss */
+.swatch {
+  width: 100%;
+  float: left;
+  margin-right: 3.44828%;
+  display: inline;
+  height: 96px;
+}
+/* line 17, ../sass/_demo.scss */
+.swatch div {
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+/* line 23, ../sass/_demo.scss */
+.swatch div span {
+  display: block;
+  width: 100%;
+  height: 10px;
+}
+
+/* line 33, ../sass/_demo.scss */
+.clearfix {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 78, ../sass/_demo.scss */
+.info-base div:nth-child(1) {
+  background-color: #81bde8;
+}
+/* line 82, ../sass/_demo.scss */
+.info-base div:nth-child(1) span {
+  background-color: #7ab3dc;
+}
+
+/* line 88, ../sass/_demo.scss */
+.info-base div:nth-child(2) {
+  background-color: #81ace8;
+}
+/* line 92, ../sass/_demo.scss */
+.info-base div:nth-child(2) span {
+  background-color: #7aa3dc;
+}
+
+/* line 98, ../sass/_demo.scss */
+.info-base div:nth-child(3) {
+  background-color: #819be8;
+}
+/* line 102, ../sass/_demo.scss */
+.info-base div:nth-child(3) span {
+  background-color: #7a93dc;
+}
+
+/* line 108, ../sass/_demo.scss */
+.info-base div:nth-child(4) {
+  background-color: #8a81e8;
+}
+/* line 112, ../sass/_demo.scss */
+.info-base div:nth-child(4) span {
+  background-color: #837adc;
+}
+
+/* line 122, ../sass/_demo.scss */
+.error-base div:nth-child(1) {
+  background-color: #eb8d8c;
+}
+/* line 126, ../sass/_demo.scss */
+.error-base div:nth-child(1) span {
+  background-color: #df8585;
+}
+
+/* line 132, ../sass/_demo.scss */
+.error-base div:nth-child(2) {
+  background-color: #e49493;
+}
+/* line 136, ../sass/_demo.scss */
+.error-base div:nth-child(2) span {
+  background-color: #d88c8b;
+}
+
+/* line 142, ../sass/_demo.scss */
+.error-base div:nth-child(3) {
+  background-color: #dd9a9a;
+}
+/* line 146, ../sass/_demo.scss */
+.error-base div:nth-child(3) span {
+  background-color: #d19292;
+}
+
+/* line 152, ../sass/_demo.scss */
+.error-base div:nth-child(4) {
+  background-color: #d7a1a0;
+}
+/* line 156, ../sass/_demo.scss */
+.error-base div:nth-child(4) span {
+  background-color: #cc9898;
+}
+
+/* line 165, ../sass/_demo.scss */
+.success-base div:nth-child(1) {
+  background-color: #c8db4c;
+}
+/* line 169, ../sass/_demo.scss */
+.success-base div:nth-child(1) span {
+  background-color: #bed048;
+}
+
+/* line 175, ../sass/_demo.scss */
+.success-base div:nth-child(2) {
+  background-color: #d0e641;
+}
+/* line 179, ../sass/_demo.scss */
+.success-base div:nth-child(2) span {
+  background-color: #c5da3d;
+}
+
+/* line 185, ../sass/_demo.scss */
+.success-base div:nth-child(3) {
+  background-color: #d8f136;
+}
+/* line 189, ../sass/_demo.scss */
+.success-base div:nth-child(3) span {
+  background-color: #cde433;
+}
+
+/* line 195, ../sass/_demo.scss */
+.success-base div:nth-child(4) {
+  background-color: #e0fb2c;
+}
+/* line 199, ../sass/_demo.scss */
+.success-base div:nth-child(4) span {
+  background-color: #d4ee29;
+}
+
+/* line 209, ../sass/_demo.scss */
+.warning-base div:nth-child(1) {
+  background-color: #eec74c;
+}
+/* line 213, ../sass/_demo.scss */
+.warning-base div:nth-child(1) span {
+  background-color: #e2bd48;
+}
+
+/* line 219, ../sass/_demo.scss */
+.warning-base div:nth-child(2) {
+  background-color: #eed54c;
+}
+/* line 223, ../sass/_demo.scss */
+.warning-base div:nth-child(2) span {
+  background-color: #e2ca48;
+}
+
+/* line 229, ../sass/_demo.scss */
+.warning-base div:nth-child(3) {
+  background-color: #eee24c;
+}
+/* line 233, ../sass/_demo.scss */
+.warning-base div:nth-child(3) span {
+  background-color: #e2d648;
+}
+
+/* line 239, ../sass/_demo.scss */
+.warning-base div:nth-child(4) {
+  background-color: #ecee4c;
+}
+/* line 243, ../sass/_demo.scss */
+.warning-base div:nth-child(4) span {
+  background-color: #e0e248;
 }

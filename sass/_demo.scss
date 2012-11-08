@@ -34,90 +34,41 @@
 	@include clearfix;	
 }
 
-// BASE
+// // BASE
 
 .swatch-base div:nth-child(1) 
 {
-	background-color: $baseColor; 
 
 	span
 	{
-		background-color: shade($baseColor, 5%);
+	
 	}
 }
 
 .swatch-base div:nth-child(2)
 {
-	background-color: $baseColorTint; 
 
 	span
 	{
-		background-color: shade($baseColorTint, 5%);
+	
 	}
 }
 
 .swatch-base div:nth-child(3) 
 {
-	background-color: $baseColorShade;
 
 	span
 	{
-		background-color: shade($baseColorShade, 5%);	
+		
 	} 
 }
 
 .swatch-base div:nth-child(4) 
 {
-	background-color: equalize($baseColor);
-
 	span
 	{
-		background-color: shade(equalize($baseColor), 5%);
-	}  
-}
-
-
-
-// COMPLIMENTARY COLORS
-
-.comp-base div:nth-child(1)
-{
-	background-color: $primary; 
-
-	span
-	{
-		background-color: shade($primary, 5%);
-	}
-}
-
-.comp-base div:nth-child(2)
-{
-	background-color: $secondary; 
-
-	span
-	{
-		background-color: shade($secondary, 5%);
-	}
-}
-
-.comp-base div:nth-child(3) 
-{
-	background-color: $tertiary; 
-
-	span
-	{
-		background-color: shade($tertiary, 5%);
-	}
-}
-
-.comp-base div:nth-child(4) 
-{
-	background-color: $quadrary;
 	
-	span
-	{
-		background-color: shade($quadrary, 5%);
-	} 
+	}  
 }
 
 
