@@ -4,32 +4,18 @@
 //----------------------------------------------------------------------------
 
 // ---------------------------------------------------------------------------
-// Imports
+// @DEBUG
 
-@import "susy";
-
-// ---------------------------------------------------------------------------
-// Basic Grid
-
-$total-columns  			: 7;
-$column-width   			: 4em;
-$gutter-width   			: 1em;
-$grid-padding   			: $gutter-width;
-
-$break1          			: 12;
-$break2         			: 8;
-
-$show-grid-backgrounds  	: true;
+$DEBUG: true;
 
 // ---------------------------------------------------------------------------
-// COLORS
+// @COLORS
 
-//TINT AND SHADE
-
+// TINT AND SHADE //
 $tintPercent				: 30%;
 $shadePercent				: 20%;
 
-// GRAYS
+// GRAYS //
 $black						: rgb(0,0,0) ;
 $grayDark					: lighten($black, 25%) ;
 $gray 						: lighten($black, 50%) ;
@@ -37,7 +23,21 @@ $grayLight 					: lighten($black, 75%) ;
 $grayLighter				: lighten($black, 90%) ;
 $white						: rgb(255,255,255)     ;
 
-// COLORS
+// Transparents //
+$whiteTransperntVeryLight: transparentize(rgb(255, 255, 255), .90);
+$whiteTransperntLight: transparentize(rgb(255, 255, 255), .70);
+$whiteTransperntMed: transparentize(rgb(255, 255, 255), .50);
+$whiteTransperntLow: transparentize(rgb(255, 255, 255), .30);
+$whiteTransperntVeryLow: transparentize(rgb(255, 255, 255), .10);
+
+$blackTransperntVeryLight: transparentize(rgb(0, 0, 0), .90);
+$blackTransperntLight: transparentize(rgb(0, 0, 0), .70);
+$blackTransperntMed: transparentize(rgb(0, 0, 0), .50);
+$blackTransperntLow: transparentize(rgb(0, 0, 0), .30);
+$blackTransperntVeryLow: transparentize(rgb(0, 0, 0), .10);
+
+
+// COLORS //
 $red 						: #e35d5b ;
 $orange 					: #e8632c ;
 $yellow 					: #e8b000 ;
@@ -47,7 +47,7 @@ $blue 						: #4ca2df ;
 $violet 					: #9094d3 ;
 $magenta 					: #dc609c ;
 
-// LINKS
+// LINKS //
 $linkColor 		    		: $blue;
 $linkColorTint 				: tint($linkColor, 30%);
 $linkColorShade 			: shade($linkColor, 20%);
@@ -55,8 +55,7 @@ $linkColorHover 			: darken($linkColor, 10);
 $linkColorVisited   		: darken($linkColorHover, 10);
 $linkColorFocus 			: darken($linkColorVisited, 10);
 
-// TINTS
-
+// TINTS //
 $redTint 					: tint($red, $tintPercent) ;
 $orangeTint 				: tint($orange, $tintPercent) ;
 $yellowTint					: tint($yellow, $tintPercent) ;
@@ -66,9 +65,7 @@ $blueTint 					: tint($blue, $tintPercent) ;
 $violetTint 				: tint($violet, $tintPercent) ;
 $magentaTint 				: tint($magenta, $tintPercent) ;
 
-
-// SHADES
-
+// SHADES //
 $redshade 					: shade($red, $shadePercent) ;
 $orangeshade 				: shade($orange, $shadePercent) ;
 $yellowshade				: shade($yellow, $shadePercent) ;
@@ -91,4 +88,30 @@ $zindexTooltip				: 1020 ;
 $zindexFixedNavbar			: 1030 ;
 $zindexModalBackdrop		: 1040 ;
 $zindexModal 				: 1050 ;
+
+// ---------------------------------------------------------------------------
+// @DEVICE SIZES
+
+// Referenced: http://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+
+// iPhone //
+$iphone-portrait: 320px;
+$iphone-landscape: 480px;
+
+// SmartPhones //
+$smartphone-landscape: 321px;
+$smartphone-portrait: 320px;
+
+// iPad //
+$ipad-portrait: 768px;
+$ipad-landscape: 1024px;
+
+// Desktops and Laptops //
+$desktop: 1224px;
+
+// Large Screens //
+$large-screens: 1824px;
+
+
+
 

@@ -3,15 +3,99 @@
 //----------------------------------------------------------------------------
 
 
+
+// ---------------------------------------------------------------------------
+// @DEBUGGING
+
+// Media Queries //
+@include respond-to( min-width, $iphone-portrait )
+{
+	body
+	{
+		@include debugmessage("iPhone portrait media query fired", $yellow);
+	}
+}
+
+@include respond-to( min-width, $ipad-portrait )
+{
+	body
+	{
+		@include debugmessage("iPad Portrait media query fired", $red);
+	}
+}
+
+// ---------------------------------------------------------------------------
+// @LAYOUT
+
+.page
+{
+	@include zen-grid-container;
+}
+
+.container
+{
+	margin: 0 5em;
+}
+
+.left-column
+{
+	@include respond-to( min-width, $ipad-portrait )
+	{
+		@include zen-grid-item(3, 1);
+	}
+}
+
+.right-column
+{
+	@include respond-to( min-width, $ipad-portrait )
+	{
+		@include zen-grid-item(3, 5);
+	}
+}
+
+h1.title
+{
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	background: $gray;
+	font-size: 1.5em;
+	margin-top: .3em;
+}
+
 // ---------------------------------------------------------------------------
 // SWATCHES
 
+%main-header-spacing
+{
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+
+h2.main
+{
+	display: block;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	@include emphasize(dark);
+	@extend %main-header-spacing;
+}
+
+h3.secondary
+{
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	@extend %main-header-spacing;
+}
 
 .swatch 
 {
-	@include span-columns(6,6);
 	height: 96px;
-
 
 	div
 	{
@@ -34,7 +118,7 @@
 	@include clearfix;	
 }
 
-// // BASE
+// BASE
 
 .swatch-base div:nth-child(1) 
 {

@@ -6,42 +6,42 @@
 // ---------------------------------------------------------------------------
 // TYPOGRAPHY
 
-$baseFontSize                             : 16px;
-$baseFontFamily                           : "Helvetica Neue", Helvetica, Arial, sans-serif;
-$baseLineHeight                           : 24px;
+$baseFontSize: 16px;
+$baseFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$baseLineHeight: 24px;
 
-$altFontFamily                            : Georgia, Times, "Times New Roman", serif;
-$altLineHeight                            : 1.35em;
+$altFontFamily: Georgia, Times, "Times New Roman", serif;
+$altLineHeight: 1.35em;
 
-$headingsFontFamily                       : inherit; 			            // empty to use BS default, @baseFontFamily
-$headingsFontWeight                       : bold;    			            // instead of browser default, bold
-$headingsColor                            : inherit; 						      // empty to use BS default, @textColor
+$headingsFontFamily: inherit; 			            // empty to use BS default, @baseFontFamily
+$headingsFontWeight: bold;    			            // instead of browser default, bold
+$headingsColor: inherit; 						      // empty to use BS default, @textColor
 
-$codeFont                                 : Monaco, Courier New, monospace;
+$codeFont: Monaco, Courier New, monospace;
 
+$font-shadow-inset: rgba($black, 0.6);
 
 // ---------------------------------------------------------------------------
 // @TYPOGRAPHY VERTICAL RYTHM
 
+$base-font-size: $baseFontSize;
+$base-line-height: $baseLineHeight;
 @include establish-baseline;
-
-$base-font-size                           : $baseFontSize;
-$base-line-height                         : $baseLineHeight;
-$default-rhythm-border-style              : solid;
-$relative-font-sizing                     : true;
-$round-to-nearest-half-line               : false;
-$min-line-padding                         : 2px;
-$font-unit                                : if($relative-font-sizing, 1em, $base-font-size);
+$default-rhythm-border-style: solid;
+$relative-font-sizing: true;
+$round-to-nearest-half-line: false;
+$min-line-padding: 2px;
+$font-unit: if($relative-font-sizing, 1em, $base-font-size);
 
 // ---------------------------------------------------------------------------
 // SPACES
 
-$spaceXS					: $baseLineHeight / 6;
-$spaceS 					: $baseLineHeight / 4;
-$spaceM 					: $baseLineHeight / 2;
-$space 						: $baseLineHeight;
-$spaceL 					: $baseLineHeight * 2;
-$spaceXL 					: $baseLineHeight * 4;
+$spaceXS: $baseLineHeight / 6;
+$spaceS: $baseLineHeight / 4;
+$spaceM: $baseLineHeight / 2;
+$space: $baseLineHeight;
+$spaceL: $baseLineHeight * 2;
+$spaceXL: $baseLineHeight * 4;
 
 
 // ---------------------------------------------------------------------------
@@ -54,6 +54,8 @@ dl,
 address 
 {
   @include rhythm(1, 0, 0, 1, 16px);
+  @include adjust-font-size-to(16px);
+  
   font-family: $baseFontFamily;
 
   small 
@@ -73,6 +75,7 @@ a
   color: $linkColor;
   text-decoration: none;
 }
+
 a:hover 
 {
   color: $linkColorHover;
@@ -91,23 +94,30 @@ h1, h2, h3, h4, h5, h6
   font-weight: $headingsFontWeight;
   color: $headingsColor;
   text-rendering: optimizelegibility; // Fix the character spacing for headings
+  
+  a
+  {
+    font-family: $headingsFontFamily;
+    font-weight: $headingsFontWeight;
+    color: $headingsColor; 
+  }
 }
 
 h1
 { 
-  @include leader(2, 32px, padding);
-  @include adjust-font-size-to(32px);  
+  @include leader(1, 36px, padding);
+  @include adjust-font-size-to(36px);  
 }
 
 h2 
 { 
-    @include leader(1, 24px, margin);
-    @include adjust-font-size-to(24px); 
+    @include leader(1, 30px, margin);
+    @include adjust-font-size-to(30px); 
 }
 
 h3 
 {
-    @include leader(1, 21px, margin);
+    @include leader(1, 24px, margin);
     @include adjust-font-size-to(21px); 
 }
 
@@ -119,14 +129,14 @@ h4
 
 h5 
 {
-    @include leader(1, 16px, margin);
-    @include adjust-font-size-to(16px); 
+    @include leader(1, 14px, margin);
+    @include adjust-font-size-to(14px); 
 }
 
 h6 
 {
-    @include leader(1, 14px, margin);
-    @include adjust-font-size-to(14px); 
+    @include leader(1, 12px, margin);
+    @include adjust-font-size-to(12px); 
 }
 
 
@@ -139,8 +149,8 @@ blockquote
   color: $gray;
   @include rhythm(1, 0, 0, 1, 18px);
   @include adjust-font-size-to(18px); 
-  margin-left: $gutter-width;
-  padding-left : $gutter-width;
+  // margin-left: $gutter-width;
+  // padding-left : $gutter-width;
   font-family : $altFontFamily;
   font-style: italic;
 }
@@ -177,7 +187,7 @@ cite
   font-style : normal; 
   font-weight:900;
   text-align: right;
-  margin-right: $column-width;
+  // margin-right: $column-width;
 
   &:before
   {

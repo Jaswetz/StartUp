@@ -1,0 +1,197 @@
+//----------------------------------------------------------------------------
+// mixins.scss
+//----------------------------------------------------------------------------
+
+// ---------------------------------------------------------------------------
+// @MEDIA QUERIES
+
+@mixin respond-to($val, $query)
+{
+	@media ($val: $query)
+	{
+		@content
+	}
+}
+
+// Debuggin Media Querie //
+
+@mixin debugmessage($message, $color )
+{ 
+	@if $DEBUG == true
+	{ 
+		&::before
+		{ 
+			content: $message; 
+			font-weight: bold; 
+			display: block; 
+			text-align: center; 
+			color: darken($color, 30%);
+			background: #{$color}; 
+			position: absolute; 
+			right: 0; 
+			left: 0; 
+			top: 0; 
+			z-index: 99; 
+		} 
+	}
+}
+
+
+// ---------------------------------------------------------------------------
+// @HEADER STYLE
+
+@mixin heading($style)
+{
+  @if $style == "drop-outline"
+  {
+     h1 
+     {
+        text-shadow: 
+          0 2px $bodyBackground,
+          0 3px $headingsColor;
+
+        font-weight: normal;
+        text-transform: uppercase;
+     }
+
+     h2
+     {
+        font-weight: normal;
+     }
+
+     h3
+     {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight:normal;
+        font-style: italic;
+     }
+
+     h4
+     {
+        font-weight: normal; }
+  }
+
+  @if $style == "two-corners"
+  {
+    h1
+    {   
+      @include box-shadow (
+        inset 0 0 0 1px complement( rgba($baseColor, .4) ),
+        inset 0 0 0 1px complement( rgba($baseColor, .5) ),
+        inset -285px 0 35px $white );
+      position: relative;
+      padding: 15px 15px 15px 15%;
+      
+      font-weight: 600;
+
+      background: #fff url('../img/ivan.jpeg') no-repeat center left;
+    }
+
+    h2
+    {
+      font-weight: normal;
+      position: relative;
+      text-shadow: 0 -1px $font-shadow-inset;
+      background: complement($baseColor);
+      background: complement( rgba($baseColor, .8) );
+      border: 1px solid $white;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// @DROP SHADOW
+
+@mixin drop-shadow($direction)
+{
+	@if $direction == "top"
+	{
+		@include box-shadow( 0 (-$default-box-shadow-v-offset) ($default-box-shadow-v-offset / 2) (-($default-box-shadow-v-offset / 2)) $default-box-shadow-color );
+	}
+
+	@if $direction == "bottom"
+	{
+		@include box-shadow( 0 $default-box-shadow-v-offset ($default-box-shadow-v-offset / 2) (-($default-box-shadow-v-offset / 2)) $default-box-shadow-color ); 
+	}
+
+	@if $direction == "right"
+	{
+		@include box-shadow( $default-box-shadow-h-offset 0 ($default-box-shadow-h-offset / 2) (-($default-box-shadow-h-offset / 2)) $default-box-shadow-color ); 
+	}
+
+	@if $direction == "left"
+	{
+		@include box-shadow( (-$default-box-shadow-h-offset) 0 ($default-box-shadow-h-offset / 2) (-($default-box-shadow-h-offset / 2)) $default-box-shadow-color ); 
+	}
+
+	@if $direction == "full"
+	{
+		@include box-shadow(0 0 $default-box-shadow-blur 2px $default-box-shadow-color);
+	}
+
+	@if $direction == "light"
+	{
+		@include box-shadow(0 0 0 10px $whiteTransperntMed);
+	}
+
+	@if $direction == "glow"
+	{
+		@include box-shadow(0 0 $default-box-shadow-blur 4px $whiteTransperntLight inset);
+	}
+}
+
+// ---------------------------------------------------------------------------
+// @EMPHASIS BOXES
+
+@mixin emphasize($style, $color: $baseColor, $borderRadius: $defaultBorderRadius)
+{
+	@if $style == "dark"
+	{
+		@include border-radius($borderRadius);
+		@include drop-shadow(full);
+		background: $baseColor;
+	}
+
+	@if $style == "light"
+	{
+		@include border-radius($borderRadius);
+		@include drop-shadow(light);
+		background: $baseColor;
+	}
+
+	@if $style == "glow"
+	{
+		@include border-radius($borderRadius);
+		@include drop-shadow(glow);
+		background: $baseColor;
+	}
+}
+
+
+// ---------------------------------------------------------------------------
+// @EMBOSS
+
+@mixin emboss($style, $color: $baseColor, $borderRadius: $defaultBorderRadius)
+{
+	@if $style == "light"
+	{
+		@include border-radius($borderRadius);
+		border: 1px solid $blackTransperntVeryLow;
+		background: $baseColor;
+		@include box-shadow(0 1px 0 $whiteTransperntLight inset)
+	}
+
+	@if $style == "heavy"
+	{
+		@include border-radius($borderRadius);
+		border: 1px solid $blackTransperntVeryLow;
+		background: $baseColor;
+		@include box-shadow (
+			0 2px 3px $whiteTransperntLight inset,
+			0 -2px 3px  $blackTransperntLight inset,
+			0 1px 1px $whiteTransperntLow
+
+			)
+	}
+}
