@@ -5,64 +5,64 @@ A place to get started
 
 ## File Structure
 
-/sass
-	_modernizr.scss
-	_dependencies.scss
+	/sass
+		_modernizr.scss
+		_dependencies.scss
+		
+		_settings.scss
+		_styles.scss
+		_typography.scss
+		_mixins.scss
+		_ui.scss
+		_helper.scss
+		_base.scss
+		
+		_blocks.scss
+		_forms.scss
+		_tables.scss
+		_sub-blocks.scss
+		
+		_site.scss
+		_style-guide.scss
+		_override.scss
 
-	_settings.scss
-	_styles.scss
-	_typography.scss
-	_mixins.scss
-	_ui.scss
-	_helper.scss
-	_base.scss
+- Dependencies 
+	- this is used to import assets such as fonts, icons or other css from plugins or extensions
 
-	_blocks.scss
-	_forms.scss
-	_tables.scss
-	_sub-blocks.scss
+- Settings
+	- this contains all default and base variables
 
-	_site.scss
-	_style-guide.scss
-	_override.scss
+- Styles
+	- everything in here should be reusible and should be a @mixin or a @extend
+	- this file defines the "style" of the site including gradients, textures, theme specific colors
 
-Dependencies
-: this is used to import assets such as fonts, icons or other css from plugins or extensions
+- Typography
+	- used to help keep typographical rythem
+	- all basic text elements are defined here
 
-Settings
-: this contains all default and base variables
+- Mixins and UI
+	- everything in here should be reusible and should be a @mixin
 
-Styles
-: everything in here should be reusible and should be a @mixin or a @extend
-: this file defines the "style" of the site including gradients, textures, theme specific colors
+- Helper
+	- contains helper functions, snippets or mixins
+	- common helper classes are things like .clearfix or .hidden
 
-Typography
-: used to help keep typographical rythem
-: all basic text elements are defined here
+- Base
+	- here you set up the base of the site overiding browser defaults 
+	- reset or normalizr would reside here
 
-Mixins and UI
-: everything in here should be reusible and should be a @mixin
+- Blocks, Forms, Tables
+	- site default layout blocks are defined here
 
-Helper
-: contains helper functions, snippets or mixins
-: common helper classes are things like .clearfix or .hidden
+- Sub-Blocks
+	- any override of blocks goes here
 
-Base
-: here you set up the base of the site overiding browser defaults 
-: reset or normalizr would reside here
+- Site
+	- this contains the scaffolding or overall layout
 
-Blocks, Forms, Tables
-: site default layout blocks are defined here
+- Style-Guide
+	- this is used for debugging or getting an overview of site styles
 
-Sub-Blocks
-: any override of blocks goes here
-
-Site
-: this contains the scaffolding or overall layout
-
-Style-Guide
-: this is used for debugging or getting an overview of site styles
-
-Override
-: used for debugging and ideally should be cleaned up at end of project
+- Override
+	- used for debugging and ideally should be cleaned up at end of project
 
